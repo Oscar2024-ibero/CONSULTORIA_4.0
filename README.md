@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -21,6 +21,13 @@
         header h1 {
             margin: 0;
             font-size: 2.5em;
+        }
+        video#videoempresarial {
+            display: block;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 800px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         nav {
             background-color: #495057;
@@ -100,6 +107,12 @@
         <h1>Consultoría Integral para tu Empresa</h1>
     </header>
 
+    <!-- Video empresarial -->
+    <video id="videoempresarial" controls>
+        <source src="videos/videoempresarial.mp4" type="video/mp4">
+        Tu navegador no soporta la reproducción de videos.
+    </video>
+
     <!-- Barra de navegación -->
     <nav>
         <a href="#modulo1">Módulo 1: Estrategia Empresarial</a>
@@ -169,11 +182,10 @@
 
     <!-- Botón flotante de WhatsApp -->
     <div class="whatsapp-bubble">
-        <a href="https://wa.me/3170683101?text=Hola,%20me%20gustaría%20recibir%20más%20información%20sobre%20sus%20servicios" target="_blank">
+        <a href="https://wa.me/1234567890?text=Hola,%20me%20gustaría%20recibir%20más%20información%20sobre%20sus%20servicios" target="_blank">
             🟢
         </a>
     </div>
 
 </body>
 </html>
-
