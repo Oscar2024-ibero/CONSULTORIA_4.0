@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -60,6 +60,27 @@
             margin: 20px auto;
             width: 80%;
             max-width: 600px;
+        }
+        .whatsapp-bubble {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+        .whatsapp-bubble a {
+            background-color: #25d366;
+            color: white;
+            padding: 15px;
+            border-radius: 50%;
+            text-decoration: none;
+            font-size: 1.5em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .whatsapp-bubble a:hover {
+            background-color: #1ebe57;
         }
         footer {
             background-color: #343a40;
@@ -128,7 +149,7 @@
             Optimiza el talento de tu equipo. Ofrecemos soluciones para la gestión de recursos humanos, desde reclutamiento y selección hasta desarrollo de competencias, capacitación y retención de talento.
         </p>
         <!-- Imagen 4 -->
-        <img src="imagenes/imagen 4.jpg" alt="Recursos Humanos">
+        <img src="imagenes/imagen4.jpg" alt="Recursos Humanos">
     </section>
 
     <!-- Módulo 5: Transformación Digital -->
@@ -138,7 +159,7 @@
             Llevamos tu empresa al siguiente nivel con tecnología de vanguardia. Implementamos soluciones digitales que mejoran la eficiencia operativa y te preparan para los desafíos del mercado moderno.
         </p>
         <!-- Imagen 5 -->
-        <img src="imagenes/imagen 5.jpg" alt="Transformación Digital">
+        <img src="imagenes/imagen5.jpg" alt="Transformación Digital">
     </section>
 
     <!-- Pie de página -->
@@ -146,5 +167,13 @@
         <p>© 2024 Consultoría Integral. Todos los derechos reservados.</p>
     </footer>
 
+    <!-- Botón flotante de WhatsApp -->
+    <div class="whatsapp-bubble">
+        <a href="https://wa.me/3170683101?text=Hola,%20me%20gustaría%20recibir%20más%20información%20sobre%20sus%20servicios" target="_blank">
+            🟢
+        </a>
+    </div>
+
 </body>
 </html>
+
