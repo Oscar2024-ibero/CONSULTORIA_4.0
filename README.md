@@ -145,6 +145,3 @@
     <footer>
         <p>© 2024 Consultoría Integral. Todos los derechos reservados.</p>
     </footer>
-
-</body>
-</html>
